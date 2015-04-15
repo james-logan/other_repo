@@ -5,11 +5,121 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Bootstrap Fun!</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<h1>Hello World</h1>
+<!-- Nav Header -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+			    <div class="navbar-header">
+				    <a href="#" class="navbar-brand">
+				        <h1 class="">Furry Fighters</h1>
+				        <p class="navbar-text hidden-xs">Battle companions you can trust.</p>
+				    </a>
+			    </div>
+			</div>
+		</nav>
+		<div class="container">
+<!-- Warrior Table -->
+			<h1 id="first_title">Warriors for Hire</h1>
+			<hr>
+			<div class="col-md-12 hidden-xs">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>Photo</th>
+							<th>Name</th>
+							<th>Species</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="http://i.imgur.com/BZK6rqZ.jpg" href="http://i.imgur.com/BZK6rqZ.jpg"></td>
+							<td>Fenrir</td>
+							<td>Wolf Monster Thing</td>
+							<td><button class="btn btn-danger">Hire</button></td>
+						</tr>
+						<tr>
+							<td><img src="http://i.imgur.com/pf0HK.jpg" href="http://i.imgur.com/pf0HK.jpg"></td>
+							<td>Brushy-Tail Broadsword</td>
+							<td>Squirrel</td>
+							<td><button class="btn btn-danger">Hire</button></td>
+						</tr>
+						<tr>
+							<td><img src="http://i.imgur.com/SfClRA5.jpg?1" href="http://i.imgur.com/SfClRA5.jpg?1"></td>
+							<td>Stomper</td>
+							<td>Rhinocerous</td>
+							<td><button class="btn btn-danger">Hire</button></td>
+						</tr>
+					</tbody>
 
+				</table>
+			</div>
+<!-- Phone Warrior Blerbs -->
+			<div class="col-md-12 visible-xs-block phone_blerb">
+				<img src="http://i.imgur.com/BZK6rqZ.jpg" href="http://i.imgur.com/BZK6rqZ.jpg">
+				<button class="btn btn-danger col-xs-6 btn-lg micro_btn">Hire</button>
+				<dl class="dl-horizontal">
+					<dt>Name:</dt>
+					<dd>Fenrir</dd>
+					<dt>Species:</dt>
+					<dd>Wolf Monster Thing</dd>
+				</dl>
+			</div>
+			<div class="col-md-12 visible-xs-block phone_blerb">
+				<img src="http://i.imgur.com/pf0HK.jpg" href="http://i.imgur.com/pf0HK.jpg">
+				<button class="btn btn-danger col-xs-6 btn-lg micro_btn">Hire</button>
+				<dl class="dl-horizontal">
+					<dt>Name:</dt>
+					<dd>Brushy-Tail Broadsword</dd>
+					<dt>Species:</dt>
+					<dd>Squirrel</dd>
+				</dl>
+			</div>			
+			<div class="col-md-12 visible-xs-block phone_blerb">
+				<img src="http://i.imgur.com/SfClRA5.jpg?1" href="http://i.imgur.com/SfClRA5.jpg?1">
+				<button class="btn btn-danger col-xs-6 btn-lg micro_btn">Hire</button>
+				<dl class="dl-horizontal">
+					<dt>Name:</dt>
+					<dd>Stomper</dd>
+					<dt>Species:</dt>
+					<dd>Rhinocerous</dd>
+				</dl>
+			</div>
+<!-- Post a warrior form -->
+			<hr class="col-xs-12">
+			<form class="form-horizontal">
+				<h1>Post a Warrior</h1>
+				<div class="form-group">
+					<label class="control-label add_pet_label">Photo</label>
+					<div>
+						<div class="form-group col-xs-12 col-sm-8" id="photo_input">
+							<input class="form-control" type="text" placeholder="Enter a url or browse your computer...">
+						</div>
+						<div class="col-xs-12 col-md-4">
+							<button class="btn btn-danger col-xs-12">Browse...</button>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label add_pet_label">Name</label>
+					<div class="col-md-12">
+						<input class="form-control" type="text" placeholder="Enter your companion's name...">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label add_pet_label">Species</label>
+					<div class="col-md-12">
+						<input class="form-control" type="text" placeholder="Enter your companion's breed or species...">
+					</div>
+				</div>
+				<div class="form-group add_pet_label">
+					<input type="submit" class="btn btn-block btn-danger" value="Post">
+				</div>
+			</form>
+		</div>
 	</body>
 
 </html>

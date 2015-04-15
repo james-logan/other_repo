@@ -1,0 +1,81 @@
+/*********************
+General Styles
+*********************/
+
+h1 {
+	color: red;
+}
+
+body {
+	background-color: #191919;
+}
+
+img {
+	width:100px;
+	border: 3px solid #363636;
+}
+
+/*Table Styles*/
+
+#first_title {
+	margin-top: 100px;
+}
+
+table.table {
+	color: #D4AF37;
+}
+
+table.table tbody tr td,
+label {
+	color: #C0C0C0;
+}
+
+/*Phone Blerb Styles*/
+
+ .phone_blerb {
+ 	margin-top: 20px;
+ 	color: #363636;
+ 	background-color: #A9A9A9;
+ 	border: 6px solid #363636;
+ 	border-radius: 5%;
+ 	padding: 5%;
+ }
+
+.micro_btn {
+	float: none;
+	height: 80px;
+}
+
+/*Navbar Styles*/
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-brand h1 {
+	margin: 5px;
+	display: inline-block;
+}
+
+.navbar-inverse .navbar-text {
+	float: none;
+	display: inline-block;
+	color: #D4AF37;
+}
+
+/*.navbar-static-top {
+	postion: fixed;
+}*/
+
+/*Form Styles*/
+
+.add_pet_label {
+	padding: 15px;
+}
+
+#photo_input {
+	margin-left: 0;
+}
+
+
+
